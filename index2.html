@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>мой сайт2</title>
+</head>
+<body>
+    <form action="/handler.php" method="post">
+        <label for="clientName">Введите e-mail, чтобы получить персональное предложение</label>
+        <input type="text" id="clientName" name="clientName" />
+        <button type="submit">Отправить</button>
+    </form>
+    <form action="textarea1.php" method="post">
+        <p><b>Есть вопрос? Напишите нам:</b></p>
+        <p><textarea rows="10" cols="45" name="text"></textarea></p>
+        <p><input type="submit" value="Отправить"></p>
+    </form>
+    <p>Какую модель Вы выбрали?</p>
+    <form action="input10.php">
+    <p><input type="radio" value="1" name="myRadio">Granta<Br>
+    <input type="radio" value="1" name="myRadio">Vesta<Br>
+    <input type="radio" value="1" name="myRadio">XRAY<Br>
+    <input type="radio" value="1" name="myRadio">Vesta SW<Br>
+    <input type="radio" value="1" name="myRadio">Vesta SW Cross<Br>
+    <input type="radio" value="1" name="myRadio">Granta Cross<Br>
+    <input type="radio" value="1" name="myRadio">Ничего не выбрал</p>
+    </form>
+    <p>Что Вам не понравилось?</p>
+    <form action="input10.php">
+        <p><input type="checkbox" name="myCheckbox">Цвет<Br>
+        <input type="checkbox" name="myCheckbox">Цена<Br>
+        <input type="checkbox" name="myCheckbox">Комплектация</p>
+    </form>
+    <p>Выберите автомобиль для тест-драйва:</p>
+    <form action="select1.php" method="post">
+        <p><select size="4" multiple name="Auto[]">
+            <option disabled>Выберите марку</option>
+            <option value="Granta">Granta</option>
+            <option selected value="Vesta">Vesta</option>
+            <option value="XRAY">XRAY</option>
+            <option selected value="VestaSW">Vesta SW</option>
+            <option selected value="VestaSW Cross">Vesta SW Cross</option>
+            <option selected value="Granta Cross">Granta Cross</option>
+        </select></p>
+        <p><input type="submit" value="Отправить"></p>
+    </form>
+    <p>Выберите салон для тест-драйва:</p>
+    <form action="select1.php" method="post">
+        <p><select size="1">
+            <option disabled>Выберите адрес</option>
+            <option selected value="г. Новосибирск, Бердское шоссе, дом 63/2.">г. Новосибирск, Бердское шоссе, дом 63/2.</option>
+            <option selected value="г. Новосибирск, ул.Большевистская, д.14/2">г. Новосибирск, ул.Большевистская, д.14/2</option>
+            <option selected value="г. Новосибирск, ул. Русская, д. 48">г. Новосибирск, ул. Русская, д. 48</option>
+        </select></p>
+        <p><input type="submit" value="Отправить"></p>
+    </form>
+     </body>
