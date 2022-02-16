@@ -1,0 +1,56 @@
+<! -- --> p {
+color: red;
+    font-size: 25px;
+    font-weight: bold;
+}
+input {
+    font-size: 18px;
+    color: green;
+    font-weight: bold;
+}
+label{
+     font-weight: bold;
+     color: blue;
+}
+td {
+     font-weight: bold;
+}
+h1 {
+    color: blue;
+    font-size: 40px;
+    font-weight: bold;
+}
+button {
+    font-size: 18px;
+    color: green;
+    font-weight: bold;
+}
+.myValue {
+    font-size: 18px;
+    color: Brown;
+    font-weight: bold;
+}
+.radio {
+    color: Blue;
+    font-size: 15px;
+    font-weight: bold;
+}
+.checkbox {
+    color: Blue;
+    font-size: 15px;
+    font-weight: bold;
+}
+option {
+    color: Blue;
+    font-size: 15px;
+    font-weight: bold;
+}
+#mod {
+        color: red;
+        font-size: 22px;
+        font-weight: bold;
+}
+.pred {
+        font-size: 18px;
+        font-weight: bold;
+}
